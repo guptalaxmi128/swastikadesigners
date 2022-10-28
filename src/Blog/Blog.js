@@ -19,9 +19,6 @@ function Blog() {
               classNameName="logo-img"
               alt="not found"
             />
-            <h2>
-              BAUEN<span>INNOVATE DESIGN</span>
-            </h2>
           </NavLink>
         </div>
         {/* <!-- Menu --> */}

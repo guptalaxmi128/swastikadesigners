@@ -20,9 +20,6 @@ function Home() {
               className="logo-img"
               alt="not found"
             />
-            <h2>
-              BAUEN<span>INNOVATE DESIGN</span>
-            </h2>
           </NavLink>
         </div>
         {/*    <!-- Menu --> */}
@@ -80,10 +77,17 @@ function Home() {
         <header id="home" className="header slider-fade">
           <div className="owl-carousel owl-theme">
             {/*  <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. --> */}
-            <div style={{backgroundImage:`url(${process.env.PUBLIC_URL + `/assets/img/slider/1.jpg`})`}}
+            <div
+              style={{
+                backgroundImage: `url(${
+                  process.env.PUBLIC_URL + `/assets/img/slider/1.jpg`
+                })`,
+              }}
               className="text-right item bg-img"
               data-overlay-dark="3"
-              data-background={process.env.PUBLIC_URL + `/assets/img/slider/1.jpg`}
+              data-background={
+                process.env.PUBLIC_URL + `/assets/img/slider/1.jpg`
+              }
             >
               <div className="v-middle caption">
                 <div className="container">
@@ -93,7 +97,7 @@ function Home() {
                         <h1>Innovative Design</h1>
 
                         <div className="butn-light mt-30 mb-30">
-                          <a href="#contact" target="_blank">
+                          <a href="#contact">
                             <span>Contact us</span>
                           </a>
                         </div>
@@ -103,10 +107,17 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div style={{backgroundImage:`url(${process.env.PUBLIC_URL + `/assets/img/slider/2.jpg`})`}}
+            <div
+              style={{
+                backgroundImage: `url(${
+                  process.env.PUBLIC_URL + `/assets/img/slider/2.jpg`
+                })`,
+              }}
               className="text-right item bg-img"
               data-overlay-dark="4"
-              data-background={process.env.PUBLIC_URL + `/assets/img/slider/2.jpg`}
+              data-background={
+                process.env.PUBLIC_URL + `/assets/img/slider/2.jpg`
+              }
             >
               <div className="v-middle caption">
                 <div className="container">
@@ -116,7 +127,7 @@ function Home() {
                         <h1>Innovative Design</h1>
 
                         <div className="butn-light mt-30 mb-30">
-                          <a href="#contact" target="_blank">
+                          <a href="#contact">
                             <span>Contact us </span>
                           </a>
                         </div>
