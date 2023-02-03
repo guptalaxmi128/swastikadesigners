@@ -6,7 +6,7 @@ function Home() {
     <div>
       {/*  <!-- Preloader --> */}
       <div id="preloader"></div>
-
+     
       {/*  <!-- Sidebar Section --> */}
       <a href="#" className="js-bauen-nav-toggle bauen-nav-toggle">
         <i></i>
@@ -22,6 +22,8 @@ function Home() {
             />
           </NavLink>
         </div>
+        
+
         {/*    <!-- Menu --> */}
         <nav className="bauen-main-menu">
           <ul>
@@ -77,6 +79,7 @@ function Home() {
         <header id="home" className="header slider-fade">
           <div className="owl-carousel owl-theme">
             {/*  <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. --> */}
+
             <div
               style={{
                 backgroundImage: `url(${
@@ -141,6 +144,15 @@ function Home() {
           {/*   <!-- Corner --> */}
           <div className="hero-corner"></div>
           <div className="hero-corner3"></div>
+          <div >
+        <a href="https://www.instagram.com/swastika.designers/?igshid=MDM4ZDc5MmU%3D">
+          <img
+            src={process.env.PUBLIC_URL + `/assets/img/whatsapp.jpg`}
+            className="whatsapp"
+            alt="whatspp"
+          />
+        </a>
+      </div>
         </header>
         {/*     <!-- Content --> */}
         <div className="content-wrapper">
@@ -151,6 +163,7 @@ function Home() {
             </div>
           </section>
           {/*   <!-- About --> */}
+
           <section id="about" className="about section-padding">
             <div className="container">
               <div className="row">
@@ -206,7 +219,12 @@ function Home() {
                       />
                     </div>
 
-                    <div className="about-img-2 about-buro">Canada Office</div>
+                    <div
+                      className="about-img-2 about-buro"
+                      style={{ width: "200px" }}
+                    >
+                      Restaurant in Delhi Ncr
+                    </div>
                   </div>
                 </div>
               </div>
@@ -525,8 +543,11 @@ function Home() {
                   data-animate-effect="fadeInUp"
                 >
                   <p>
-                    <b>Address :</b> 678/2, S Civil Lines, near Mahaveer Chowk,
-                    Civil Lines South, Muzaffarnagar, Uttar Pradesh 251001
+                    <b>Address :</b> 618, Shiv Mandir Ln, Jawahar Quarters,
+                    BEGUM BAGH, Meerut, Uttar Pradesh, 250001
+                    <br />
+                    Circular road, opp. Ch. Chottu Ram Inter College,
+                    Muzaffarnagar, 251001
                   </p>
                 </div>
                 <div
@@ -820,8 +841,12 @@ function Home() {
                       <h6>Our Address</h6>
                     </div>
                     <p>
-                      678/2, S Civil Lines, near Mahaveer Chowk, Civil Lines
-                      South, Muzaffarnagar, Uttar Pradesh 251001
+                      618, Shiv Mandir Ln, Jawahar Quarters, BEGUM BAGH, Meerut,
+                      Uttar Pradesh, 250001
+                      <br />
+                      <br />
+                      Circular road, opp. Ch. Chottu Ram Inter College,
+                      muzaffarnagar, 251001
                     </p>
                   </div>
                 </div>

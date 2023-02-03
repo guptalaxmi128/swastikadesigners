@@ -98,15 +98,20 @@ function InteriorDesign() {
               <div className="row">
                 <div className="col-md-8">
                   <p>
-                    Architecture non lorem ac erat suscipit bibendum. Nulla
-                    facilisi sedeuter nunc volutpat molli sapien veconseyer
-                    turpeutionyer masin libero sempe. Fusceler mollis augue sit
-                    amet hendrerit vestibulum. Duisteyerionyer venenatis lacus.
+                    Working from a deep understanding of our clients’ vision,
+                    mission and culture we design with a hospitality approach
+                    influenced by the comfort of domesticity while curating
+                    spaces for engagement. We believe the best spaces are truly
+                    individual and a reflection of you or your business.
                   </p>
                   <p>
-                    Villa gravida eros ut turpis interdum ornare. Interdum et
-                    malesu they adamale fames ac anteipsun pimsinefaucibus
-                    urabitur arcu site feugiat in volutpat.
+                     Beginning with research and inspiration, we move through
+                    the stages of design to find out the most efficient,
+                    functional, and an elegant solution, while adhering to
+                    practical measures such as budget, accessibility and
+                    timeline. From a complete makeover, one special piece to
+                    finish a room, or a blank canvas in a new building, we
+                    ensure you make the most of your investment.
                   </p>
                   <div className="row mb-30">
                     <div className="col-md-6 gallery-item">

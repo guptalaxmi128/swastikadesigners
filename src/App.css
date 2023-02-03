@@ -127,6 +127,16 @@ img {
   transition: all 0.5s;
   color: #323232;
 }
+
+.whatsapp{
+  width:50px;
+  border-radius: 25px;
+  position:fixed;
+  bottom:50px;
+  right:65px;
+  z-index:10;
+}
+
 span,
 a,
 a:hover {
@@ -1144,7 +1154,7 @@ body.offcanvas .bauen-nav-toggle {
 }
 
 .about-img .about-img-2 {
-  width: 40% !important;
+  width: 80% !important;
   position: absolute;
   bottom: 0px;
   right: 45px;
@@ -1158,6 +1168,7 @@ body.offcanvas .bauen-nav-toggle {
   font-size: 13px;
   line-height: 1.5em;
   text-align: center;
+  border:2px solid #b19777;
 }
 
 .about-buro {
